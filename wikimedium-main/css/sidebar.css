@@ -13,6 +13,12 @@ nav:hover {
   opacity: 1;
   transition: all .1s ease-out;
 }
+nav li:first-child {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  widows: 100%;
+}
 nav p {
   font-size: 14px;
   line-height: 16px;
@@ -22,11 +28,11 @@ nav p {
 nav a  {
   text-decoration: none;
   font-size: 14px;
-  line-height: 27px;
+  line-height: 20px;
 }
 nav ul li {
   list-style-type: none;
-  margin: 0;
+  margin-top: 4px;
   width: 100%;
 }
 nav ul ul li {
