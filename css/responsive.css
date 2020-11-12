@@ -14,8 +14,14 @@ body { min-width: 320px; }
 article > * { width: calc(100% - 40px); }
 }
 @media all and (max-width: 768px){
-	.index_item { width: 100% }
+.index_item { width: 100% }
 }
 @media all and (max-width: 768px) {
 section img { width: 100%; }
+}
+@media all and (max-width: 1340px) {
+section div { width: 100%; }
+section img {
+    align-items: center;
+  }
 }

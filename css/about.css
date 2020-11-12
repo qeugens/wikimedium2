@@ -1,7 +1,6 @@
 section div {
   width: 50%;
   display: inline-block;
-  /* background: red; */
   overflow: hidden;
   vertical-align: top;
 }
@@ -35,6 +34,7 @@ section div:nth-child(even) h2 {
   border-top: 1px solid #bbb;
   padding-top: 20px;
   text-align: center;
+  background: white;
 }
 .bottom_block p, .bottom_block h2 {
   margin-left: auto;
